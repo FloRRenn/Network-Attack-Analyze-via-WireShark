@@ -1,6 +1,4 @@
 # Phân tích tấn công mạng từ file PCAP
-PCAP file ./NukeTheBrowser.pcap
-
 ---
 
 # I. Tools
@@ -8,6 +6,7 @@ PCAP file ./NukeTheBrowser.pcap
 - Scdbg
 
 # II. Phân tích
+[XEM TÓM TẮT TẠI ĐÂY](#iii-tóm-tắt-kịch-bản-tấn-công)
 
 ### 1. Xác định các địa chỉ IP và protocol cần phân tích.
 Đầu tiên, em sẽ xem có bao nhiêu IP được capture trong file PCAP này, sử dụng option `Statistics > Endpoints`, em biết được có khoảng 20 được capture trong file.
